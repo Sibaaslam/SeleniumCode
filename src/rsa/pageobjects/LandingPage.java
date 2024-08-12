@@ -14,7 +14,7 @@ public class LandingPage extends ReusableCode {
 		PageFactory.initElements(driver,this);
 		
 	}
-	
+	//page for CICD
 	@FindBy(id="userEmail")
 	WebElement email;
 	@FindBy(id="userPassword")
